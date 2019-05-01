@@ -130,9 +130,8 @@ public class AerospikeRecordReader
                 log.info("scan finished");
             }
             catch (Exception ex) {
-                log.error("exception in ASSCanReader.run: " + ex);
                 isError = true;
-                return;
+                throw new RuntimeException(ex);
             }
         }
     }
