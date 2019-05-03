@@ -8,7 +8,7 @@ Aerospike Hadoop/Spark connector. Customized aerospike-hadoop-connector from [ae
 Add the following to `build.sbt`:
 
 ```scala
-libraryDependencies += "" % "aerospike-mapreduce" % "1.0.0"
+libraryDependencies += "io.github.zhou-dong" % "aerospike-mapreduce" % "1.0.0"
 ```
 
 ## Usage
