@@ -2,6 +2,8 @@
 
 Aerospike Hadoop/Spark connector. Customized aerospike-hadoop-connector from [aerospike-hadoop][1].
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.zhou-dong/aerospike-mapreduce.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.zhou-dong%22%20AND%20a:%22aerospike-mapreduce%22)
+
 ## Installation
 Add the following to `build.sbt`:
 
